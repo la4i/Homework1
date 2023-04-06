@@ -1,0 +1,158 @@
+ @-webkit-keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  @keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+/* Блок 1 */
+
+  .block_one {
+    background-image: url(Homework1_img/Top_background.jpg);
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    padding-right: 531px;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .top_tittle {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    width: 788px;
+    padding-top: 217px;
+  }
+
+  .top_tittle_mini {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 481px;
+    padding-top: 32px;
+  }
+
+  .color_text {
+    font-weight: 300;
+}
+
+  .top_btn {
+    margin-top: 44px;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 48.6px;    
+    border: #9C0332;
+    animation: blink-1 1.8s 5s 2 both;
+  }
+
+
+ /* Блок 2 */
+ 
+ .block_two {
+    background-image: url(Homework1_img/background_block_two.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 556px;
+}
+
+.game_block {
+    display: flex;
+    gap: 32px;
+    padding-top: 128px;
+    justify-content: center;
+}
+
+.game_one {
+    background-image: url(Homework1_img/game1.jpg);
+    width: 379px;
+    height: 300px;
+    border-radius: 18px;
+}
+
+.game_one:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.game_two {
+    background-image: url(Homework1_img/game2.jpg);
+    width: 378px;
+    height: 300px;
+    border-radius: 18px;
+}
+
+.game_two:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.game_three {
+    background-image: url(Homework1_img/game3.jpg);
+    width: 379px;
+    height: 300px;
+    border-radius: 18px;
+}
+
+.game_three:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.game_name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 236px;
+}
+
+.game_name:hover {
+    color: red;
+}
