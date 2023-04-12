@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+/* Блок 1 */
+
+.block-one {
+  background-image: url(Homework1_img/Top_background.jpg);
+  height: 1024px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    padding-top: 217px;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    width: 481px;
+  }
+
+  &__btn {
+    margin-top: 44px;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 48.6px;
+    border: none;
+    &:hover{
+      background-color: #EB443F;
+      transition: all 0.3s;
+    }
+  }
+}
+
+/* Блок 2 */
+
+.block-two {
+  background-image: url(Homework1_img/background_block_two.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 128px-0;
+  justify-content: center;
+
+  &__game {
+    width: 379px;
+    height: 300px;
+    border-radius: 18px;
+
+    &:hover {
+      border: 3px solid #44D2FF;
+      transition: all 0.2s;
+    }
+  }
+
+  &__game-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 236px;
+  }
+
+}
+
+.game-one {
+  background-image: url(./Homework1_img/game1.jpg);
+  background-position: center;
+}
+
+.game-two {
+  background-image: url(./Homework1_img/game2.jpg);
+  background-position: center;
+}
+
+.game-three {
+  background-image: url(./Homework1_img/game3.jpg);
+  background-position: center;
+}
+
+@import 'mobile';
