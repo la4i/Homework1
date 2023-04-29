@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -55,7 +54,8 @@ body {
     color: #FFFFFF;
     height: 48.6px;
     border: none;
-    &:hover{
+
+    &:hover {
       background-color: #EB443F;
       transition: all 0.3s;
     }
@@ -110,6 +110,194 @@ body {
 .game-three {
   background-image: url(./Homework1_img/game3.jpg);
   background-position: center;
+}
+
+// блок 3
+
+.block-three {
+  background-image: url(Homework1_img/three_background.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img {
+    padding-top: 200px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    padding-top: 217px;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    width: 481px;
+  }
+
+  &__btn {
+    margin-top: 44px;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 48.6px;
+    border: none;
+
+    &:hover {
+      background-color: #EB443F;
+      transition: all 0.3s;
+    }
+  }
+}
+
+// блок 4 
+
+.block-four {
+  background-image: url(Homework1_img/three_background.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  &__img {
+    padding-top: 200px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    padding-top: 217px;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    width: 481px;
+  }
+
+  &__btn {
+    margin-top: 44px;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 48.6px;
+    border: none;
+
+    &:hover {
+      background-color: #EB443F;
+      transition: all 0.3s;
+    }
+  }
+}
+
+// блок 5
+
+.block-fife {
+  background-image: url(Homework1_img/fife_background.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 276px;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 32px;
+  }
+
+  &__btn {
+    margin-top: 32px;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 48.6px;
+    border: none;
+    align-items: center;
+
+    &:hover {
+      background-color: #EB443F;
+      transition: all 0.3s;
+    }
+  }
+}
+
+// блок 6 
+
+.block-six {
+  background-image: url(Homework1_img/six_background.jpg);
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(184, 212, 255, 0.2);
+  border-left: #000915;
+  border-right: #000915;
+
+  &__title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    padding-top: 32.5px;
+    
+  }
 }
 
 @import 'mobile';

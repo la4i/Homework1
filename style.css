@@ -103,6 +103,167 @@ body {
   background-position: center;
 }
 
+.block-three {
+  background-image: url(Homework1_img/three_background.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.block-three__content {
+  display: flex;
+  justify-content: space-between;
+}
+.block-three__img {
+  padding-top: 200px;
+}
+.block-three__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding-top: 217px;
+}
+.block-three__subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 32px;
+  width: 481px;
+}
+.block-three__btn {
+  margin-top: 44px;
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  height: 48.6px;
+  border: none;
+}
+.block-three__btn:hover {
+  background-color: #EB443F;
+  transition: all 0.3s;
+}
+
+.block-four {
+  background-image: url(Homework1_img/three_background.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.block-four__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.block-four__img {
+  padding-top: 200px;
+}
+.block-four__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding-top: 217px;
+}
+.block-four__subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 32px;
+  width: 481px;
+}
+.block-four__btn {
+  margin-top: 44px;
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  height: 48.6px;
+  border: none;
+}
+.block-four__btn:hover {
+  background-color: #EB443F;
+  transition: all 0.3s;
+}
+
+.block-fife {
+  background-image: url(Homework1_img/fife_background.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.block-fife__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.block-fife__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 276px;
+}
+.block-fife__subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 32px;
+}
+.block-fife__btn {
+  margin-top: 32px;
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  height: 48.6px;
+  border: none;
+  align-items: center;
+}
+.block-fife__btn:hover {
+  background-color: #EB443F;
+  transition: all 0.3s;
+}
+
+.block-six {
+  background-image: url(Homework1_img/six_background.jpg);
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(184, 212, 255, 0.2);
+  border-left: #000915;
+  border-right: #000915;
+}
+.block-six__title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  padding-top: 32.5px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -136,5 +297,70 @@ body {
   }
   .block-one__btn {
     margin-top: 0;
+  }
+  .block-three__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .block-three__img {
+    padding-top: 64px;
+  }
+  .block-three__joystick {
+    width: 344px;
+    height: 236px;
+  }
+  .block-three__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    padding-top: 51px;
+  }
+  .block-three__subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 343px;
+    margin-bottom: 32px;
+  }
+  .block-three__btn {
+    margin-left: 60px;
+  }
+  .block-four__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .block-four__img {
+    padding-top: 64px;
+  }
+  .block-four__joystick {
+    width: 344px;
+    height: 236px;
+  }
+  .block-four__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    padding-top: 0;
+  }
+  .block-four__subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 343px;
+    margin-bottom: 32px;
+  }
+  .block-four__btn {
+    margin-left: 60px;
+  }
+  .block-fife__title {
+    padding-top: 0;
   }
 }/*# sourceMappingURL=style.css.map */

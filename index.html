@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,79 @@
     <title>Homework1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
 <body>
     <div class="block-one center">
         <div class="block-one__content">
             <h1 class="block-one__title">Добро пожаловать <br> на мой сайт!</h1>
-            <p class="block-one__subtitle">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+            <p class="block-one__subtitle">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+                <b>поехали</b> и <b>приступай</b>
+            </p>
             <button class="block-one__btn">Поехали!</button>
         </div>
     </div>
-    <div class="block-two center">      
-            <a href="#" onclick="seasons()" class="block-two__game game-one">
-                <p class="block-two__game-name">Игра 1</p>
-            </a>
-            <a href="#" class="block-two__game game-two">
-                <p class="block-two__game-name">Игра 2</p>
-            </a>
-            <a href="#" class="block-two__game game-three">
-                <p class="block-two__game-name">Игра 3</p>
-            </a>
+    <div class="block-two center">
+        <a href="#блок3" class="block-two__game game-one">
+            <p class="block-two__game-name">Игра 1</p>
+        </a>
+        <a href="#блок4" class="block-two__game game-two">
+            <p class="block-two__game-name">Игра 2</p>
+        </a>
+        <a href="#блок5" class="block-two__game game-three">
+            <p class="block-two__game-name">Игра 3</p>
+        </a>
     </div>
+    <div class="block-three center" id="блок3">
+        <div class="block-three__content">
+            <div class="block-three__info">
+                <h1 class="block-three__title">Времена года</h1>
+                <p class="block-three__subtitle">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+                    <b>поехали</b> и <b>приступай</b>
+                </p>
+                <button onclick="seasons()" class="block-three__btn">Поехали!</button>
+            </div>
+            <div class="block-three__img">
+                <img src="Homework1_img/block_three_joystick.png" alt="joystick" class="block-three__joystick">
+            </div>
+        </div>
+    </div>
+    <div class="block-four center" id="блок4">
+        <div class="block-four__content">
+            <div class="block-four__info">
+                <h1 class="block-four__title">Запомни слова</h1>
+                <p class="block-four__subtitle">При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+                    необходимо запомнить.</p>
+                <button onclick="memorizethewords()" class="block-three__btn">Играть</button>
+            </div>
+            <div class="block-four__img">
+                <img src="Homework1_img/block_four_joystick.png" alt="joystick" class="block-three__joystick">
+            </div>
+        </div>
+    </div>
+    <div class="block-fife center" id="блок5">
+        <div class="block-fife__content">
+            <h1 class="block-fife__title">Игра в Загадки</h1>
+            <p class="block-fife__subtitle">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не
+                правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <button class="block-fife__btn">Играть</button>
+        </div>
+    </div>
+    <div class="block-six center">
+        <h1 class="block-six__title">Все права защищены</h1>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
